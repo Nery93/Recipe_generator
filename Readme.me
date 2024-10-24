@@ -2,6 +2,16 @@
 This project generates recipes based on the ingredients provided by the user. 
 It uses FastAPI for the backend and will integrate an external API to fetch recipes.
 
+## API Endpoints
+
+### GET /api/recipes/
+
+- **Query Parameters**: 
+  - `ingredients`: Uma lista de ingredientes separados por vírgulas.
+
+- **Response**: 
+  - Retorna uma lista de receitas que correspondem aos ingredientes fornecidos.
+
 
 # Criar um ambiente virtual (venv)
 - python -m venv venv
